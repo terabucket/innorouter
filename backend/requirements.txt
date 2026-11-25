@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+pydantic-settings>=2.4
+apscheduler>=3.10,<4
+bcrypt>=4.1
+pyjwt>=2.9
+cryptography>=43
+# Uncomment the driver for the database you switch to (see DATABASE_URL in .env):
+# pymysql>=1.1            # MySQL / MariaDB
+# psycopg[binary]>=3.2    # PostgreSQL
